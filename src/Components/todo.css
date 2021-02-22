@@ -1,9 +1,10 @@
 body{
-    background-color: cadetblue;
+    background-color: white;
     
   }
   h1{
     font-size: 38px;
+    color: #75cfb8;
   }
   
   input[type=text] {
@@ -80,3 +81,9 @@ body{
       }
     
     }
+
+.add{
+    margin-left: 800px;
+    
+}
+

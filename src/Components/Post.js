@@ -102,10 +102,10 @@ class Post extends Component {
 
     render() {
         return (
-            <div>
+            <div class="add">
 
                 <form onSubmit={this.handleSubmit}>
-                    <h1>User Registration</h1>
+                    <h1 className="txt1">User Registration</h1>
                     <label>Job Title*</label> <input type="text" value={this.state.jobtitle} onChange={this.ahandler} placeholder="Write a title appropriately describes the job" /><br />
                     <label>Location</label> <input type="text" value={this.state.location} onChange={this.bhandler} placeholder="+Add location" /><br />
                 
